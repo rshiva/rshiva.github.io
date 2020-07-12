@@ -412,6 +412,14 @@ Error message and password prompt
 
 <li>$:/DefaultTiddlers</li>
 
+<li>$:/GitHub/Filename</li>
+
+<li>$:/GitHub/Path</li>
+
+<li>$:/GitHub/Repo</li>
+
+<li>$:/GitHub/Username</li>
+
 <li>$:/Import</li>
 
 <li>$:/isEncrypted</li>
@@ -455,6 +463,8 @@ Error message and password prompt
 <li>$:/state/tab-1528275152</li>
 
 <li>$:/state/tab-1749438307</li>
+
+<li>$:/state/tab-2065006209</li>
 
 <li>$:/state/tab/moresidebar-1850697562</li>
 
@@ -11103,6 +11113,18 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
 <div created="20200223020401797" modified="20200320165059203" tags="tb" title="$:/DefaultTiddlers">
 <pre>[[Home]]</pre>
 </div>
+<div created="20200712200626251" modified="20200712200627990" title="$:/GitHub/Filename">
+<pre>index.html</pre>
+</div>
+<div created="20200712200623718" modified="20200712200624968" title="$:/GitHub/Path">
+<pre>/wiki/</pre>
+</div>
+<div created="20200712200621905" modified="20200712200647538" title="$:/GitHub/Repo">
+<pre>rshiva/rshiva.github.io</pre>
+</div>
+<div created="20200712200613772" modified="20200712200614356" title="$:/GitHub/Username">
+<pre>rshiva</pre>
+</div>
 <div status="complete" title="$:/Import">
 <pre>The following tiddlers were imported:
 
@@ -12435,8 +12457,11 @@ very-muted-foreground: #888888</pre>
 <div created="20200320115633144" modified="20200320121047869" title="$:/state/tab-1528275152">
 <pre>$:/plugins/danielo515/ContextPlugin/visualizer</pre>
 </div>
-<div created="20200227181734793" modified="20200319024636722" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Info</pre>
+<div created="20200227181734793" modified="20200712200606391" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Saving</pre>
+</div>
+<div created="20200712200608138" modified="20200712200608138" title="$:/state/tab-2065006209">
+<pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
 </div>
 <div created="20200224162608394" modified="20200508003741430" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/All</pre>
@@ -12450,7 +12475,7 @@ very-muted-foreground: #888888</pre>
 <div created="20200319022020257" modified="20200712195055402" title="$:/state/tab5--905582679">
 <pre>$:/.giffmex/tabs/Sources</pre>
 </div>
-<div created="20200712195048770" list="Home" modified="20200712195605480" title="$:/StoryList">
+<div created="20200712200604994" list="$:/ControlPanel Home" modified="20200712200604994" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200127163609843" list="$:/jd/fullscreen-editor/EditButton $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save" modified="20200320165200410" tags="tb" title="$:/tags/EditToolbar">
@@ -12484,19 +12509,19 @@ very-muted-foreground: #888888</pre>
         },
         &quot;$:/info/url/full&quot;: {
             &quot;title&quot;: &quot;$:/info/url/full&quot;,
-            &quot;text&quot;: &quot;file:///Users/nbt040/workspace/rshiva.github.io/wiki/ideastew.html&quot;
+            &quot;text&quot;: &quot;https://rshiva.github.io/wiki/index.html&quot;
         },
         &quot;$:/info/url/host&quot;: {
             &quot;title&quot;: &quot;$:/info/url/host&quot;,
-            &quot;text&quot;: &quot;&quot;
+            &quot;text&quot;: &quot;rshiva.github.io&quot;
         },
         &quot;$:/info/url/hostname&quot;: {
             &quot;title&quot;: &quot;$:/info/url/hostname&quot;,
-            &quot;text&quot;: &quot;&quot;
+            &quot;text&quot;: &quot;rshiva.github.io&quot;
         },
         &quot;$:/info/url/protocol&quot;: {
             &quot;title&quot;: &quot;$:/info/url/protocol&quot;,
-            &quot;text&quot;: &quot;file:&quot;
+            &quot;text&quot;: &quot;https:&quot;
         },
         &quot;$:/info/url/port&quot;: {
             &quot;title&quot;: &quot;$:/info/url/port&quot;,
@@ -12504,7 +12529,7 @@ very-muted-foreground: #888888</pre>
         },
         &quot;$:/info/url/pathname&quot;: {
             &quot;title&quot;: &quot;$:/info/url/pathname&quot;,
-            &quot;text&quot;: &quot;/Users/nbt040/workspace/rshiva.github.io/wiki/ideastew.html&quot;
+            &quot;text&quot;: &quot;/wiki/index.html&quot;
         },
         &quot;$:/info/url/search&quot;: {
             &quot;title&quot;: &quot;$:/info/url/search&quot;,
@@ -12512,7 +12537,7 @@ very-muted-foreground: #888888</pre>
         },
         &quot;$:/info/url/origin&quot;: {
             &quot;title&quot;: &quot;$:/info/url/origin&quot;,
-            &quot;text&quot;: &quot;null&quot;
+            &quot;text&quot;: &quot;https://rshiva.github.io&quot;
         },
         &quot;$:/info/browser/screen/width&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/width&quot;,
@@ -12699,8 +12724,7 @@ root hard     nofile         65535
 user@ubuntu:~$ ulimit -n</pre>
 </div>
 <div created="20200223020427788" modified="20200712194539764" title="Home">
-<pre>
-&lt;&lt;tabs &quot;[[$:/.giffmex/tabs/Sources]] [[$:/.giffmex/tabs/Topics]] [[$:/.giffmex/tabs/Topical outline]] [[$:/.giffmex/tabs/download.save]] [[$:/.giffmex/Links and acknowledgements]]&quot; &quot;[[$:/.giffmex/tabs/Sources]]&quot; &quot;$:/state/tab5&quot; &quot;tc-vertical&quot;&gt;&gt;
+<pre>&lt;&lt;tabs &quot;[[$:/.giffmex/tabs/Sources]] [[$:/.giffmex/tabs/Topics]] [[$:/.giffmex/tabs/Topical outline]] [[$:/.giffmex/tabs/download.save]] [[$:/.giffmex/Links and acknowledgements]]&quot; &quot;[[$:/.giffmex/tabs/Sources]]&quot; &quot;$:/state/tab5&quot; &quot;tc-vertical&quot;&gt;&gt;
 </pre>
 </div>
 <div created="20200712194641436" modified="20200712194752609" tags="linux sources" title="Linux">
